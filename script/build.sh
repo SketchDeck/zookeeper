@@ -1,0 +1,1 @@
+sudo docker build --build-arg SERVER_PATH=$SERVER_PATH --build-arg NODE_ENV=$BRANCH_NAME -t $SEMAPHORE_PROJECT_NAME .
